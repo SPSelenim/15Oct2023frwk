@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Nov 05 15:03:45 IST 2023</td>
+<td>Started on:</td><td>Sun Nov 05 15:32:52 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>15 seconds (15840 ms)</td>
+<tr><td>Total time:</td><td>10 seconds (10106 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,13 +75,13 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Module1.Test1.afterClass()'><b>afterClass</b><br>Test class: Module1.Test1</td>
+<td title='Module2.Test2.afterClass()'><b>afterClass</b><br>Test class: Module2.Test2</td>
 <td><div><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;LAPTOP-MB7DGVQG&apos;, ip: &apos;192.168.43.40&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27996, moz:profile: C:\Users\Parth\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9c524b2f-a05f-4517-b2c6-b8809abac94c
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19172, moz:profile: C:\Users\Parth\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 64a921d2-05ca-4372-8c68-d50670105ab0
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -95,7 +95,7 @@ Session ID: 9c524b2f-a05f-4517-b2c6-b8809abac94c
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
 	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
-	at Module1.Test1.afterClass(Test1.java:39)
+	at Module2.Test2.afterClass(Test2.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -122,13 +122,13 @@ Session ID: 9c524b2f-a05f-4517-b2c6-b8809abac94c
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace428996455", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace428996455'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+</pre></div><a href='#' onClick='toggleBox("stack-trace1558395480", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1558395480'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;LAPTOP-MB7DGVQG&apos;, ip: &apos;192.168.43.40&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27996, moz:profile: C:\Users\Parth\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9c524b2f-a05f-4517-b2c6-b8809abac94c
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231019122658, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19172, moz:profile: C:\Users\Parth\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 64a921d2-05ca-4372-8c68-d50670105ab0
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -142,7 +142,7 @@ Session ID: 9c524b2f-a05f-4517-b2c6-b8809abac94c
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
 	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
-	at Module1.Test1.afterClass(Test1.java:39)
+	at Module2.Test2.afterClass(Test2.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -170,8 +170,8 @@ Session ID: 9c524b2f-a05f-4517-b2c6-b8809abac94c
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>0</td>
-<td>Module1.Test1@7ed7259e</td></tr>
+<td>1</td>
+<td>Module2.Test2@3d51f06e</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -181,15 +181,10 @@ Session ID: 9c524b2f-a05f-4517-b2c6-b8809abac94c
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Module1.Test1.f()'><b>f</b><br>Test class: Module1.Test1</td>
+<td title='Module2.Test2.f()'><b>f</b><br>Test class: Module2.Test2</td>
 <td></td>
-<td>4</td>
-<td>Module1.Test1@7ed7259e</td></tr>
-<tr>
-<td title='Module1.Test1.f1()'><b>f1</b><br>Test class: Module1.Test1</td>
-<td></td>
-<td>8</td>
-<td>Module1.Test1@7ed7259e</td></tr>
+<td>6</td>
+<td>Module2.Test2@3d51f06e</td></tr>
 </table><p>
 </body>
 </html>
