@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 
 import frwk.Input;
 
-
+//Alll Methds are here
 public class Module22 extends Input {
 	
 public void max1()
